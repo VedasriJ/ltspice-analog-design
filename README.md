@@ -15,7 +15,7 @@ The repository is organized by circuit type. Each circuit folder contains:
 - Selected simulation plots and schematic images
 
 Current designs include:
-- [Two-stage CMOS Differential Op-Amp](opamps/two-stage-opamp/README.md)
+- [Two-stage CMOS Differential Op-Amp](opamps/two_stage_opamp/README.md)
 - (More circuits to be added incrementally)
 
 ## Tools Used
