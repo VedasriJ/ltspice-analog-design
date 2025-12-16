@@ -1,39 +1,43 @@
-# Two-Stage CMOS Differential Op-Amp
+# LTspice Analog Design Portfolio
 
-## Objective
-To design and simulate a two-stage CMOS operational amplifier and verify
-its DC operating point, small-signal gain, and stability using Miller
-compensation.
+This repository contains netlist-based LTspice simulations of fundamental
+analog CMOS circuits developed for learning and verification of analog
+integrated circuit design concepts.
 
-## Circuit Description
-- PMOS input differential pair
-- NMOS current mirror active load
-- Second-stage NMOS common-source amplifier
-- PMOS current mirror biasing
-- Miller compensation capacitor
+The focus is on understanding:
+- DC biasing and operating-point analysis
+- Small-signal behavior and gain
+- Frequency response and stability
+- Compensation techniques in multi-stage amplifiers
 
-## Simulations Performed
+All circuits are implemented using LTspice netlists and generic MOS models.
+No proprietary process design kits (PDKs) are used.
 
-### 1. Operating Point (.op)
-- Verified DC biasing of all nodes
-- Confirmed equal current splitting in the differential pair
-- Ensured all MOSFETs operate in saturation
+## Contents
 
-### 2. AC Analysis (.ac)
-- Extracted open-loop gain
-- Identified dominant pole due to Miller compensation
-- Measured unity-gain bandwidth and phase margin
+The repository is organized by circuit type. Each circuit folder contains:
+- LTspice netlists
+- A circuit-specific README describing the design and results
+- Selected simulation plots and schematic images
 
-## Key Results (Typical)
-- DC gain: ~100 dB
-- Unity-gain bandwidth: ~1–2 MHz
-- Phase margin: ~60°
+Current designs include:
+- Two-stage CMOS differential operational amplifier
+- (More circuits to be added incrementally)
 
-## Notes
-- Inputs are driven with equal and opposite AC signals for pure differential excitation
-- Miller capacitor does not affect the DC operating point
-- Device dimensions are not optimized for performance
+## Tools Used
+- LTspice XVII
+- Netlist-based SPICE simulation
 
-## Files
-- `two_stage_opamp.cir` — LTspice netlist
-- `results/` — selected simulation plots
+## Scope and Disclaimer
+- Device dimensions are chosen for educational purposes
+- Designs are intended for conceptual understanding, not tape-out
+- Results are qualitative and topology-focused
+
+## How to Use
+1. Navigate to a circuit folder
+2. Open the netlist in LTspice
+3. Run `.op` for DC bias verification
+4. Run `.ac` for small-signal analysis
+
+## Repository Structure (Example)
+
