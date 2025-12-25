@@ -22,7 +22,7 @@ The common-source amplifier topology used for this analysis is shown below:
 
 
 
-!\[Common Source Amplifier Circuit](CS\_circuit.png)
+!\[Common Source Amplifier Circuit](opamps/common_source/CS_circuit.png)
 
 
 
