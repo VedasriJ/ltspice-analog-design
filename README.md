@@ -16,6 +16,8 @@ The repository is organized by circuit type. Each circuit folder contains:
 
 Current designs include:
 - [Two-stage CMOS Differential Op-Amp](opamps/two_stage_opamp/README.md)
+- [Common source Amplifier](opamps/common_source)
+- [Common gate Amplifier](opamps/common_gate/README.md)
 - (More circuits to be added incrementally)
 
 ## Tools Used
