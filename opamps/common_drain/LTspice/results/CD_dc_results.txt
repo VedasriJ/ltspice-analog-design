@@ -1,0 +1,22 @@
+       --- Operating Point ---
+
+V(vi):	 0	 voltage
+V(d):	 1.8	 voltage
+V(vss):	 -1.8	 voltage
+V(vo):	 -6e-15	 voltage
+V(a):	 0	 voltage
+V(g):	 0	 voltage
+V(s):	 -0.6	 voltage
+I(Vsig):	 0	 device_current
+Id(M1):	 0.0002	 device_current
+Ig(M1):	 0	 device_current
+Is(M1):	 -0.0002	 device_current
+Ib(M1):	 -2.41e-12	 device_current
+I(Cc1):	 0	 device_current
+I(VSS):	 0.0002	 device_current
+I(Rg):	 0	 device_current
+I(Rsig):	 0	 device_current
+I(VDD):	 -0.0002	 device_current
+I(I1):	 0.0002	 device_current
+I(RL):	 -6e-19	 device_current
+I(Cc2):	 -6e-19	 device_current
